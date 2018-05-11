@@ -19,7 +19,7 @@ export default class Game extends React.Component {
   restartGame() {
     this.setState({
       guesses: [],
-      feedback: 'Make your guess!',
+      feedback: 'Make your guess2!',
       auralStatus: '',
       correctAnswer: Math.floor(Math.random() * 100) + 1
     });
